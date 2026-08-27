@@ -13,9 +13,7 @@ int main() {
     map_addition(15);
     printf("Stack contents after map_addition:\n");
     print_stack();
-/* Uncomment the following statements to test flex_reduce */
 
-    /*
     int(*fptr) (int, int);
     int v1 = 1;
     int v2 = 3;
@@ -39,7 +37,7 @@ int main() {
     print_stack();
 
     printf("The address of fptr now is %p\n", fptr);
-    */
+
     return 0;
 }
 

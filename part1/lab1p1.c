@@ -14,8 +14,7 @@ int main() {
 	}
 
 	//This will lead to an error.
-	//extern int _top;
-	//printf("The size of the stack currently is %d\n", _top);
+	printf("The size of the stack currently is %d\n", get_size());
 
 	for(int i = 0; i <= MAX_SIZE; i++) {
 		int v = pop();
